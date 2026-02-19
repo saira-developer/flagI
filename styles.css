@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 400px;
+    aspect-ratio: 2 / 1;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+.row {
+    flex: 1;
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
